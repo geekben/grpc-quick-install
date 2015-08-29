@@ -34,4 +34,5 @@ make install
 apt-get install build-essential autoconf libtool
 apt-get install python-all-dev python-virtualenv
 
-./tools/run_tests/build_python.sh
+CONFIG=opt tools/run_tests/build_python.sh 2.7
+#./tools/run_tests/build_python.sh
